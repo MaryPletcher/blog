@@ -5,11 +5,50 @@
     box-sizing: border-box;
     background-color: #FEFAE3;
 }
+/* Define styles for h1 */
+h1 {
+    color: #000;
+    font-family: "Roboto Condensed";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.8px;
+}
+
+/* Define styles for h2 */
+h2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -2.8px;
+}
+
+/* Define styles for h3 */
+h3 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.26px;
+}
+
+
 
 /* Body styles */
 body {
-    font-family: Arial, sans-serif;
-    color: #333;
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.26px;
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* Adjust column widths as needed */
     margin: 20px; 
