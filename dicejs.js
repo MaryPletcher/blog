@@ -16,7 +16,8 @@ function rollDice() {
  var randNum =getRandomInt(1,7); 
   console.log(randNum )
   //generate a class with the random number between 1 - 6 called showClass
-  var showClass = 'show-' + randNum;
+
+  var showClass = 'show-' + randNum ;
   console.log(showClass)
 // if there is a class already selected remove it
   if ( currentClass ) {
