@@ -54,6 +54,9 @@ body {
     margin: 20px; 
 }
 
+hr {
+    border-color: #000; /* Sets the color of the horizontal rule to black (#000) */
+}
 
 /* Header styles */
 .header {
