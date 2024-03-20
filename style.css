@@ -61,7 +61,6 @@ hr {
 /* Header styles */
 .header {
     grid-column: 1; /* Adjust the column as needed */
-    color: #fff;
     padding: 20px;
     width: 272px;
 }
@@ -69,8 +68,16 @@ hr {
 
 .post {
     grid-column: 2 / span 3; ;
-    width: 586px;
+    max-width: 586px;
     justify-self: center; 
+}
+
+.rightSide {
+    padding: 0px;
+    margin: -20px;
+    background-color: #636B3F;
+    grid-column: 5;
+    height: 100vh;
 }
 
 
