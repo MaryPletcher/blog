@@ -70,6 +70,7 @@ hr {
     grid-column: 2 / span 3; ;
     max-width: 586px;
     justify-self: center; 
+    padding-bottom: 50px;
 }
 
 .rightSide {
@@ -79,5 +80,11 @@ hr {
     grid-column: 5;
     height: 100vh;
 }
+.postFooter {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; 
+}
 
-
+.date, .link {
+    margin: 0; /* Remove default margins */
+}

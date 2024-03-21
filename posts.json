@@ -1,0 +1,17 @@
+[
+  {
+    "title": "First Blog Post",
+    "content": "This is the content of the first blog post. It can include text, images, and other HTML elements.",
+    "date": "March 21, 2024"
+  },
+  {
+    "title": "Second Blog Post",
+    "content": "This is the content of the second blog post. It can also include text, images, and other HTML elements.",
+    "date": "March 21, 2024"
+  },
+  {
+    "title": "Third Blog Post",
+    "content": "This is the content of the third blog post. Again, it can include text, images, and other HTML elements.",
+    "date": "March 21, 2024"
+  }
+]
