@@ -69,7 +69,7 @@ hr {
 .post {
     grid-column: 2 / span 3; ;
     max-width: 586px;
-    justify-self: center; 
+    /* justify-self: center;  */
     padding-bottom: 50px;
     
 }
@@ -94,5 +94,6 @@ iframe {
     max-width: 586px; /* Adjust width as needed */
     height: 400px; /* Adjust height as needed */
     border: 1px solid #ccc; /*Add border for visual clarity*/
-    
+    display: block; /* Make the iframe a block element */
+    margin: 0 auto; /* Center the iframe horizontally */
 }
