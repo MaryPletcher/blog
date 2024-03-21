@@ -71,6 +71,7 @@ hr {
     max-width: 586px;
     justify-self: center; 
     padding-bottom: 50px;
+    
 }
 
 .rightSide {
@@ -87,4 +88,11 @@ hr {
 
 .date, .link {
     margin: 0; /* Remove default margins */
+}
+
+iframe {
+    max-width: 586px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    border: 1px solid #ccc; /*Add border for visual clarity*/
+    
 }
