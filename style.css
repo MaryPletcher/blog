@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FEFAE3;
+    background-color: #FFFBF4;
 }
 /* Define styles for h1 */
 h1 {
@@ -38,7 +38,9 @@ h3 {
     letter-spacing: -1.26px;
 }
 
-
+img {
+    max-width: 150px;
+}
 
 /* Body styles */
 body {
@@ -52,6 +54,7 @@ body {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* Adjust column widths as needed */
     margin: 20px; 
+    
 }
 
 hr {
@@ -75,9 +78,9 @@ hr {
 }
 
 .rightSide {
-    padding: 0px;
+    
     margin: -20px;
-    background-color: #636B3F;
+    background-color: #85A48C;
     grid-column: 5;
     height: 100vh;
 }
@@ -88,12 +91,4 @@ hr {
 
 .date, .link {
     margin: 0; /* Remove default margins */
-}
-
-iframe {
-    max-width: 586px; /* Adjust width as needed */
-    height: 400px; /* Adjust height as needed */
-    border: 1px solid #ccc; /*Add border for visual clarity*/
-    display: block; /* Make the iframe a block element */
-    margin: 0 auto; /* Center the iframe horizontally */
 }

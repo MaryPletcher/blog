@@ -3,8 +3,8 @@
 
 body { 
   font-family: sans-serif;
-  background: #636B3F;
-  color:white;
+  background: #F6C193;
+  color:black;
   
 }
 
@@ -18,8 +18,8 @@ body {
 }
 
 .rollBtn{
-  background:black;
-  color:white;
+  background:#E2806A;
+  color:black;
   border:none;
   margin:auto 0;
   font-size:1.5em;
@@ -57,17 +57,17 @@ body {
   line-height: 200px;
   font-size: 20px;
   font-weight: bold;
-  color: white;
+  color: black;
   text-align: center;
 }
 
 /* //individual styling for each numbers face  */
-.cube__face--1  { background: black;  opacity: 0.75;}
-.cube__face--3  { background: black;   opacity: 0.75; }
-.cube__face--2  {  background: black;   opacity: 0.75; }
-.cube__face--4  {  background: black;   opacity: 0.75; }
-.cube__face--5   {  background: black;   opacity: 0.75; }
-.cube__face--6 {  background: black;  opacity: 0.75; }
+.cube__face--1  { background: #E2806A;  opacity: 0.9;}
+.cube__face--3  { background: #85A48C;   opacity: 0.9; }
+.cube__face--2  {  background: #E99469;   opacity: 0.9; }
+.cube__face--4  {  background: #689581;   opacity: 0.9; }
+.cube__face--5   {  background: #ACBC8A;   opacity: 0.9; }
+.cube__face--6 {  background: #F9D49C;  opacity: 0.9; }
 
 .cube__face--1  { transform: rotateY(  0deg) translateZ(100px); }
 .cube__face--2   { transform: rotateY(180deg) translateZ(100px); }
