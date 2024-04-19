@@ -2,6 +2,13 @@
   {
     "title": "Dice for random study breaks!",
     "content": "<iframe src=\"dice!/diceIndex.html\" frameborder=\"0\"></iframe>\n\n<style>\n        /* Define the size of the embedded window */\n        iframe {\n            width: 500px; /* Adjust width as needed */\n            height: 400px; /* Adjust height as needed */\n            border: 1px solid #000; /* Add border for visual clarity */\n        }\n</style>",
-    "date": "March 21, 2024"
+    "date": "April 19, 2024",
+    "dateSort": "2024-04-19"
+  },
+  {
+    "title": "Hello!",
+    "content": "<p>why hellooo! this is my blog where I am practicing writing and coding! I'm still learning so it's not perfect but I hope I get better at expressing myself, writing, and programming. Wish me luck.  </p>\n<p>\u2738 Mary \u2738</p>",
+    "date": "April 18, 2024",
+    "dateSort": "2024-04-18"
   }
 ]
