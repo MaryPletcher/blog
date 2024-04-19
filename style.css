@@ -53,6 +53,7 @@ body {
     letter-spacing: -1.26px;
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* Adjust column widths as needed */
+    grid-column-gap: 30px; /* Adjust horizontal spacing */
     margin: 20px; 
     
 }
@@ -65,7 +66,7 @@ hr {
 .header {
     grid-column: 1; /* Adjust the column as needed */
     padding: 20px;
-    width: 272px;
+    
 }
 
 
