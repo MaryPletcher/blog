@@ -31,4 +31,4 @@ function rollDice() {
 // set initial side
 rollDice();
 // on click eventlistener for the button element
-rollBtn.addEventListener("click", rollDice);
+cube.addEventListener("click", rollDice);

@@ -1,7 +1,7 @@
 [
   {
     "title": "Dice for random study breaks!",
-    "content": "<iframe src=\"dice!/diceIndex.html\" frameborder=\"0\"></iframe>\n\n<style>\n        /* Define the size of the embedded window */\n        iframe {\n            width: 500px; /* Adjust width as needed */\n            height: 400px; /* Adjust height as needed */\n            border: 1px solid #000; /* Add border for visual clarity */\n        }\n</style>",
+    "content": "<p>This was inspired by the pomodoro method and my inability to make decisions. When you are taking a quick 5 minute study break, use this digital die to decide what to do!</p>\n<iframe src=\"dice!/diceIndex.html\" frameborder=\"0\"></iframe>\n\n<style>\n        /* Define the size of the embedded window */\n        iframe {\n            width: 500px; /* Adjust width as needed */\n            height: 400px; /* Adjust height as needed */\n            border: 1px solid #000; /* Add border for visual clarity */\n        }\n</style>",
     "date": "April 19, 2024",
     "dateSort": "2024-04-19"
   },
