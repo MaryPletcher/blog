@@ -5,15 +5,18 @@ body {
   font-family: sans-serif;
   background: #FFFBF4;
   color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
+
 
 /* //styling for Scene */
 .scene {
   width: 200px;
   height: 200px;
   margin: 20px;
-  perspective:600px;
-  
+  perspective:600px; 
 }
 
 .rollBtn{
@@ -41,7 +44,6 @@ body {
   transform-style: preserve-3d;
   transform: translateZ(-100px);
   transition: transform 1s;
-  
 }
 
 /* //styling for 3D Cube transforms / animations on face select (on roll) */

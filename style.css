@@ -13,7 +13,7 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: -2.8px;
+    letter-spacing: -2px;
 }
 
 /* Define styles for h2 */
@@ -24,7 +24,7 @@ h2 {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: -2.8px;
+    letter-spacing: -1px;
 }
 
 /* Define styles for h3 */
@@ -50,7 +50,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: -1.26px;
+    letter-spacing: -1px;
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* Adjust column widths as needed */
     grid-column-gap: 30px; /* Adjust horizontal spacing */
@@ -75,6 +75,7 @@ hr {
     max-width: 586px;
     /* justify-self: center;  */
     padding-bottom: 50px;
+    line-height: 150%;
     
 }
 
@@ -84,6 +85,9 @@ hr {
     background-color: #85A48C;
     grid-column: 5;
     height: 100vh;
+    top: 0; /* Position it at the top of the viewport */
+    bottom: 0; /* Stretch it to the bottom of the viewport */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
 }
 .postFooter {
     display: flex; /* Use flexbox layout */
@@ -92,4 +96,8 @@ hr {
 
 .date, .link {
     margin: 0; /* Remove default margins */
+}
+
+.iframe {
+
 }
