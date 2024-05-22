@@ -98,6 +98,11 @@ hr {
     margin: 0; /* Remove default margins */
 }
 
+.link {
+    height: 20px;
+    padding-top: 2px;
+}
+
 .iframe {
 
 }

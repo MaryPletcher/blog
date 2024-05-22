@@ -25,7 +25,7 @@ function displayPosts(posts) {
             <hr>
             <div class = "postFooter">
             <h3 class ="date">${post.date}</h3>
-            <img src="media/Linklink.png" alt="Link Icon" class ="link">
+            <img src="media/link.png" alt="Link Icon" class ="link">
             </div>
         `;
         postsContainer.appendChild(postElement);
